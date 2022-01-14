@@ -1,0 +1,137 @@
+
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(83, 82, 82);
+    font-size: 60px;
+    
+}
+
+.table-header {
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    /*border: black 1px solid; */
+    margin:auto;
+    text-align: center;
+}
+
+.table {
+    max-width: 1250px;
+    margin:auto;
+    /*border: black 1px solid; */
+}
+
+.header-title {
+    /*border: black 1px solid; */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(182, 197, 241);
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.row {
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    /*border: black 1px solid; */
+    margin:auto;
+    text-align: center;
+    border-bottom: black solid 1px;
+    padding: 12px 0 8px 0;
+    background-color: rgba(255, 255, 255, 0.801);
+    
+}
+
+.cell {
+    /*border: black 1px solid; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: auto;
+}
+
+.entry {
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.entry-container {
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px; 
+    margin:auto;
+    padding: 30px 30px 20px 80px;
+    
+}
+
+.enter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+}
+
+.submit {
+    margin: auto;
+    text-align: center;
+}
+
+.entry-form {
+    background-color: rgb(221, 226, 240);
+    padding:20px 0 20px 0;
+    max-width: 1250px;
+    margin: auto;
+    
+}
+
+.delete-button {
+    background-color: rgb(221, 226, 240);
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.read-button {
+    background-color: rgb(221, 226, 240);
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+
+}
+
+body {
+    background-color: rgb(221, 226, 240);
+}
+
+.no-books {
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(83, 82, 82);
+    font-size: 40px;
+}
+
+.submit button {
+    background-color: rgb(221, 226, 240);
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+}
+
+
+.error {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Library</title>
+</head>
+<body>
+    <h1>My Library</h1>
+
+    
+
+    <div class="entry-form">
+        <div class="enter">Please enter the following information to add a book to the library.</div>
+        <div class="entry-container">
+        <div class="title-container">
+            <div class="entry"><label for="title">Title</label></div>
+            <div class="entry"><input type="text" id="title"></div>
+            <div class="error" id="title-error"></div>
+        </div>
+        <div class="author-container">    
+            <div class="entry"><label for="author">Author</label></div>
+            <div class="entry"><input type="text" id="author"></div>
+            <div class="error" id="author-error"></div>
+        </div>
+        <div class="pages-container"> 
+            <div class="entry"><label for="pages"># of Pages</label></div>
+            <div class="entry"><input type="text" id="pages"></div>
+            <div class="error" id="pages-error"></div>
+        </div>
+        <div class="read-container">
+            <div class="entry"><label for="read">Read Status</label></div>
+            <div class="entry"><input type="text" id="read"></div>
+            <div class="error" id="read-error"></div>
+        </div>
+    </div>
+        <div class="submit"><button>SUBMIT</button></div>
+    </div>
+
+    <div class="book-list">
+        <div class="table">
+            <div class="table-header">
+                <div class="header-title">Title</div>
+                <div class="header-title">Author</div>
+                <div class="header-title">Pages</div>
+                <div class="header-title">Read Status</div>
+                <div class="header-title">Delete</div>
+            </div>
+            <div class="table-body">
+                <div class="no-books">There are currently no books in the library.</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
