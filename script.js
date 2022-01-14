@@ -135,5 +135,3 @@ submit.addEventListener('click', function () {
         }));
     }
 });
-
-
