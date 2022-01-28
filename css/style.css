@@ -134,3 +134,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
+
+.player1 {
+    margin: 3px;
+}
+
+.player2 {
+    margin: 3px;
+}
